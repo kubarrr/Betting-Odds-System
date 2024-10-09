@@ -18,9 +18,9 @@ Input 4: Dane pogodowe/stadionowe z odpowiednim embeddingiem</br>
 Input 5: Sentyment z mediów, opcjonalnie przepuszczony przez LTSM</br>
 Input 6: Dane dotyczące zawodników -> Dodatkowy model do tego lub jakaś miara wpływu nieobecnych zawodników względem obecnych</br>
 </br>
-- 6 inputów przepuszczamy przez Dense layers (niektóe ewnetualnie przez LTSM, ale nie wiem jeszcze jak to dokłądnie działa xd)
-- Łączymy dane za pomocą concatenate
-- Kilka dense layers z coraz mniejszą ilością neuronów
-- Na koniec Softmax layer z 3 wyjściami odpowiadającymi prawdopodobieństwu wygranej gospodarzy/remisu/wygranej gości
+- 6 inputów przepuszczamy przez Dense layers (niektóe ewnetualnie przez LTSM, ale nie wiem jeszcze jak to dokłądnie działa xd)</br>
+- Łączymy dane za pomocą concatenate</br>
+- Kilka dense layers z coraz mniejszą ilością neuronów</br>
+- Na koniec Softmax layer z 3 wyjściami odpowiadającymi prawdopodobieństwu wygranej gospodarzy/remisu/wygranej gości</br>
 
 
