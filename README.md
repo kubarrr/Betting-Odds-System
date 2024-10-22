@@ -8,6 +8,7 @@
   <li>Dane zawodników (do zrobienia)</li>
   <li>Dane tekstowe do analizy sentymentu (do zastanowienia)</li>
 </ul>
+ok
 
 
 <h4>Wstępny pomysł na sieć (Model 1 V1):</h4>
